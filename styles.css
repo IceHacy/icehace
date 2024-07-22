@@ -32,8 +32,8 @@ h1 {
     font-size: 24px;
     color: white;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
     background-size: cover;
     background-position: center;
     transition: opacity 0.3s;
@@ -45,11 +45,11 @@ h1 {
 }
 
 .roblox {
-    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f3ae.svg');
+    background-image: url('https://avatars.mds.yandex.net/i?id=c8af3980ef82c3d503bd300a69517202_l-12497467-images-thumbs&n=33&w=721&h=721');
 }
 
 .discord {
-    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f51d.svg');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/930/604/original/discord-logo-discord-icon-transparent-free-png.png');
 }
 
 .discord:hover::after {
@@ -63,4 +63,5 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    font-size: 14px; /* Adjusted font size */
 }
