@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s;
+    position: relative;
+}
+
+.icons a:hover {
+    opacity: 0.8;
+}
+
+.roblox {
+    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f3ae.svg');
+}
+
+.discord {
+    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f51d.svg');
+}
+
+.discord:hover::after {
+    content: "icehace";
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
